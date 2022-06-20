@@ -8,11 +8,17 @@ body{
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .container{
     background-color: #ffff;
     width: 870px;
     padding: 30px 30px;
+    margin: 10px 0;
+}
+.container:hover{
+    border: 5px #563eff solid;
 }
 
 /* top players stylee */
@@ -82,3 +88,4 @@ h4{
     position: relative;
     bottom: 15px;
 }
+
