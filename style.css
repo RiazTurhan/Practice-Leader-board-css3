@@ -18,7 +18,7 @@ main{
     margin: 10px 0;
 }
 .container:hover{
-    border: 5px #563eff solid;
+    border: 3px #563eff solid;
 }
 
 /* top players stylee */
@@ -27,7 +27,7 @@ main{
     margin-bottom: 30px;
 }
 .section-title{
-    color: #563eff;
+    color: #432bff;
     font-size: 24px;
     margin-top: 3px;
 }
