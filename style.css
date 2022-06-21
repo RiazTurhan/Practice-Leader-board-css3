@@ -188,3 +188,30 @@ h4{
     padding: 2px 15px;
     border-radius: 15px;
 }
+
+/* --------- for responsive/// media queries --------------- */
+
+/* Mobile Devices */
+@media only screen and (max-width:638px) {
+    .container{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    .blog1, .blog2, .blog3, .blog4{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+}
+
