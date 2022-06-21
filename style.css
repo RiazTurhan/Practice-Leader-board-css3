@@ -193,7 +193,7 @@ h4{
 
 @media only screen and (max-width:638px) {
     .container{
-        width: 100%;
+        width: 80%;
     }
     .players{
         grid-template-columns: repeat(1, 1fr);
@@ -210,7 +210,14 @@ h4{
     }
     .blogs{
         grid-template-columns: repeat(1, 1fr);
-        
+  
+    }
+    .course-info{
+        flex-direction: column;
+    }
+    .course-type{
+        width: 80%;
+        margin:10px auto;
     }
 }
 
