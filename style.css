@@ -219,5 +219,9 @@ h4{
         width: 80%;
         margin:10px auto;
     }
+    .last-part{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
